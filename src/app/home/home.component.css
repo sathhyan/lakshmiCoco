@@ -1,0 +1,225 @@
+.body{
+    margin: 0;
+    padding: 0; 
+    /* background-color: #f4f2f3; */
+    background-color: #413F42;
+}
+
+.navbar{
+    background-color: #915a3c;
+    font-size: 20px; 
+}
+
+/* -----------landingpage----------- */
+
+.home{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hcon{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+.landingPage{
+    background-color: #cfb79f;
+    background-image: url('src/assets/img/pic1.jpeg');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+        /*------------- CARD--------------*/
+ .section-heading{
+   font-family: 'Poppins', sans-serif;
+   padding-left: 50px;
+   padding-right: 50px;
+   font-size: 2rem;
+ }
+ .section-p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.3rem;
+  }
+
+#whycoco{
+    background-color: #e8e6e7;
+    background-blend-mode: multiply;
+    padding-top: 100px;  
+     background-image: url('src/assets/img/pattern1.jpg');
+}
+
+/* .row-card{
+    padding: 50px ;
+    margin: 0;
+} */
+@media (min-width:40em){
+    .row-card {
+        padding: 50px 100px 120px 100px;
+        margin: 0;
+    }
+}
+.whycoco-column{
+    padding-top: 50px;
+}
+.card-header{
+    padding-top: 20px ;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+.card-body{
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width:500px)
+{
+    .card-body{
+        padding: 30px 20px 50px 20px;
+    }
+}
+
+.card{
+   /* background: rgba(255, 255, 255, 0.06); */
+   box-shadow: 8px 8px 32px 8px rgba(31, 38, 135, 0.37);
+   border-radius: 20px;
+   border: none;
+}
+
+.card-1{
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.card-2{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.card-3{
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+/* ---------------------------------CONTACT----------------------- */
+
+/* #contact{
+    margin-top: 5px;
+    padding: 120px 0;
+    background-color: #915a3c;
+}
+ 
+.contact-box{
+    background-color: #e8e6e7;
+}
+.imgCard{
+    background: lightgreen;
+    max-width: 100%;
+    padding: 3rem;
+}
+.image{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: relative;
+} */
+
+/* ----------------------------- */
+
+#features{
+    position: relative;  
+    padding: 4.5%;
+    background: #915a3c;
+}
+
+.features-row{  
+    background: white;
+    padding-bottom: 50px;
+}
+
+.row-contact{
+    padding: 50px;
+}
+
+.image{
+    /* max-width: 100%; */
+    object-fit: cover;
+    /* object-position: relative; */
+}
+@media(max-width:40em){
+    .image{
+        max-width: 100%;
+    }
+    .row-contact{
+        padding: 0 30px;
+    }
+}
+.form-label{
+    font-weight: 500;
+    color: #202A30;
+}
+.cnt-h3{
+    /* text-align: center; */
+    font-weight: 600;
+    color: #202A30;
+}
+
+
+/* ------------------------------gallery */
+#gallery{
+    background-color: #e8e6e7;
+    background-blend-mode: multiply;
+    background-image: url('src/assets/img/pattern1.jpg');
+    padding-bottom: 0.2%;
+}
+
+#carouselExampleControls{
+    padding-top: 2%;
+    padding-bottom: 4.5%;
+    background: #915a3c;
+}
+
+@media(min-width:500px){
+    .content{padding: 50px 0 0 480px;}
+    .sapce1{margin-left:150px ;}
+    .sapce{font-size: 1.5rem;}
+    .carousel-inner{
+        padding: 50px;
+    }
+    .height{padding-left:20px ;}
+    .address{padding-left:250px ;
+        padding-top:15px ;}
+    .bi{font-size:27px;}
+    .c-item{height: 480px;}
+    /* .det{padding-left: 10px;padding-top: 7px;} */
+}
+@media(max-width:500px){
+    .whycoco-column{
+        padding: 0 30px 50px 30px;
+    }
+    .sapce{font-size: 1rem;}
+    .content{padding: 30px 0 0 20px;}
+    #carouselExampleControls{
+        padding: 2%;
+        /* padding-bottom: 2%; */
+        /* padding-left: 4.5%;
+        padding-right: 4.5%; */
+        background: #915a3c;
+    }
+    .address{padding-left:5px ;}
+    .sapce1{margin-left: 100px;}
+    .c-item{
+        height: 270px;
+        }
+}
+
+/* ---------------------footer----------------- */
+
+.height{
+    height: 270px;
+    background: #321F28;
+}
+.col-1{
+    padding: 0;
+}
